@@ -1,6 +1,6 @@
 import pytest
 
-from sti_incidencias.incidencias import (
+from .incidencias import (
     asignar_tecnico,
     cerrar_incidencia,
     crear_incidencia,

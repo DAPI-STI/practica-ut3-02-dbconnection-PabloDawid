@@ -4,9 +4,11 @@ import os
 from dataclasses import dataclass
 from typing import Any, Iterable, Optional
 
-import mysql.connector
+import mysql.connector 
 from mysql.connector.connection import MySQLConnection
 
+from dotenv import load_dotenv
+load_dotenv()
 
 @dataclass(frozen=True)
 class DBConfig:
